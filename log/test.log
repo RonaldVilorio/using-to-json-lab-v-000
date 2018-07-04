@@ -38977,3 +38977,4 @@ Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
   [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
 Processing by ProductsController#show as JSON
   Parameters: {"id"=>"1260"}
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 1260]]

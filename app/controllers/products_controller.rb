@@ -24,7 +24,7 @@ class ProductsController < ApplicationController
 
   def show
     binding.pry
-    @product = Product.find(params[:id])
+    product = Product.find(params[:id])
   end
 
   def data

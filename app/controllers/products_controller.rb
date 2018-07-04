@@ -25,6 +25,7 @@ class ProductsController < ApplicationController
   def show
     binding.pry
     product = Product.find(params[:id])
+    render json: product.to_json
   end
 
   def data

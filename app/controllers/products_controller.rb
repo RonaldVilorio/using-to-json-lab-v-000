@@ -30,10 +30,10 @@ class ProductsController < ApplicationController
     end
   end
 
-  def data
-    product = Product.find(params[:id])
-    render json: product.to_json
-  end
+  # def data
+  #   product = Product.find(params[:id])
+  #   render json: product.to_json
+  # end
 
   private
 
